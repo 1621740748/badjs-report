@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>example</title>
-    <script src="../src/bj-report.js"></script>
-    <script src="../src/bj-wrap.js"></script>
-    <script src="../node_modules/requirejs/require.js"></script>
+    <script src="bj-report.js"></script>
+    <!-- <script src="bj-wrap.js"></script> -->
+    <!-- <script src="../node_modules/requirejs/require.js"></script> -->
 </head>
 <body>
     <script>
 
         //初始化
-        BJ_REPORT.init({id: 7  , uin : 55555, random: 1 , url:"http://127.0.0.1/badjs"})
+        BJ_REPORT.init({id: 1  , uin : 1, random: 1 , url:"http://192.168.1.6:8088/badjs"})
 
         //主动上报错误日志
         BJ_REPORT.report("error msg 2");
